@@ -45,7 +45,4 @@ public class AccountController {
             return ResponseEntity.badRequest().build();
         }
     }
-
-    // #Future Function: PUT /api/accounts/{id}/transfer
-    // #Future Function: PUT /api/accounts/{id}/deposit
 }
